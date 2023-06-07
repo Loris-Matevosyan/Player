@@ -3,9 +3,13 @@
 
 class Player
 {
+private:
+    int health{};
+    int xp{}:
+    std::stirng name{};
 public:
-    Player();
-    ~Player();
+    Player() : health{100}, xp{1}, name{"player"} {}
+    ~Player()
 
 };
 
