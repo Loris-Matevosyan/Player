@@ -6,9 +6,9 @@ class Player
 private:
     int health{};
     int xp{}:
-//     std::stirng name{};
+    std::stirng name{};
 public:
-//     Player() : health{100}, xp{1}, name{"player"} {}
+    Player() : health{100}, xp{1}, name{"player"} {}
     ~Player()
 
 };
